@@ -17,7 +17,8 @@
 教育 -0.014285841 0.6079104 0.21085194 -0.69194657 0.33619738 0.38108802 0.14272486 ...
 ````
 ### 依赖包
->pip install gensim==3.7.1    # 推荐这个版本否则可能报错
->pip install jieba
-
+```bash
+pip install gensim==3.7.1    # 推荐这个版本否则可能报错
+pip install jieba
+```
 参考这篇[博客](https://blog.csdn.net/qq_42491242/article/details/104782989 "https://blog.csdn.net/qq_42491242/article/details/104782989")
