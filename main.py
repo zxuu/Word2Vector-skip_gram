@@ -39,7 +39,7 @@ def train_word2vec(dataset_path, out_vector):
     logger.info("running %s" % ' '.join(sys.argv))
     # 把语料变成句子集合
     sentences = LineSentence(dataset_path)
-    # 训练word2vec模型（size为向量维度，sg=0为CBOW否则skip-gram本文为1，window为词向量上下文最大距离，min_count需要计算词向量的最小词频）
+    # 训练word2vec模型（size为向量维度，sg=0为CBOW否则skip-gram.本文为1，window为词向量上下文最大距离，min_count需要计算词向量的最小词频）
     model = word2vec.Word2Vec(sentences, size=50, sg=1, window=10, min_count=5, workers=4, iter=5)
     # (iter随机梯度下降法中迭代的最大次数，sg为1是Skip-Gram模型)
     # 保存word2vec模型（创建临时文件以便以后增量训练）
