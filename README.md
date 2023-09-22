@@ -21,5 +21,6 @@
 pip install gensim==3.7.1    # 推荐这个版本否则可能报错
 pip install jieba
 ```
-参考这篇[博客](https://blog.csdn.net/qq_42491242/article/details/104782989)
+
+参考这篇[博客](https://blog.csdn.net/qq_42491242/article/details/104782989)   
 这篇[使用GloVe生成中文词向量](https://blog.csdn.net/weixin_40952784/article/details/100729036)
