@@ -17,8 +17,16 @@
 教育 -0.014285841 0.6079104 0.21085194 -0.69194657 0.33619738 0.38108802 0.14272486 ...
 ````
 ### 依赖包
+<<<<<<< HEAD
 >pip install gensim==3.7.1    # 推荐这个版本否则可能报错
 >pip install jieba
 
 参考这篇[博客](https://blog.csdn.net/qq_42491242/article/details/104782989 "https://blog.csdn.net/qq_42491242/article/details/104782989")
 还有一篇博客是用训练的[使用GloVe生成中文词向量](https://blog.csdn.net/weixin_40952784/article/details/100729036 'https://blog.csdn.net/weixin_40952784/article/details/100729036')
+=======
+```bash
+pip install gensim==3.7.1    # 推荐这个版本否则可能报错
+pip install jieba
+```
+参考这篇[博客](https://blog.csdn.net/qq_42491242/article/details/104782989 "https://blog.csdn.net/qq_42491242/article/details/104782989")
+>>>>>>> f2dcf181e4f27c191759b8ea83fb8df7569fd038
